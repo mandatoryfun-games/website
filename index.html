@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>&#9733; MANDATORY FUN &#9733; Professional Corporate Fun Consulting &#9733;</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mandatory Fun - Professional Corporate Fun Consulting. Pizza parties, clown consulting, balloon animals, and more. Making workplaces fun since 2024.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+  background-color: #000033;
+  color: #FFFFFF;
+  cursor: crosshair;
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 30% 60%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 50% 10%, #aaf 50%, transparent 50%),
+    radial-gradient(1px 1px at 70% 80%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 90% 40%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 15% 90%, #aaf 50%, transparent 50%),
+    radial-gradient(1px 1px at 45% 45%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 80% 15%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 25% 75%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 60% 55%, #aaf 50%, transparent 50%),
+    radial-gradient(1px 1px at 5% 50%, #fff 50%, transparent 50%),
+    radial-gradient(1px 1px at 95% 70%, #fff 50%, transparent 50%),
+    radial-gradient(2px 2px at 40% 30%, #ffa 40%, transparent 60%),
+    radial-gradient(2px 2px at 75% 50%, #ffa 40%, transparent 60%);
+  background-size: 300px 300px;
+}
+
+a { color: #00FFFF; }
+a:visited { color: #FF69B4; }
+a:hover { color: #FFFF00; }
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.blink { animation: blink 1s step-end infinite; }
+
+@keyframes rainbow {
+  0% { color: #FF0000; }
+  16% { color: #FF8800; }
+  33% { color: #FFFF00; }
+  50% { color: #00FF00; }
+  66% { color: #0088FF; }
+  83% { color: #8800FF; }
+  100% { color: #FF0000; }
+}
+.rainbow { animation: rainbow 3s linear infinite; }
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+.marquee-text {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.spin { display: inline-block; animation: spin 2s linear infinite; }
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+.sparkle { animation: sparkle 1.5s ease-in-out infinite; }
+
+@keyframes fire {
+  0% { text-shadow: 0 0 4px #ff0, 0 -2px 6px #f80, 0 -4px 10px #f00; }
+  50% { text-shadow: 0 0 6px #ff0, 0 -4px 8px #f80, 0 -6px 12px #f00; }
+  100% { text-shadow: 0 0 4px #ff0, 0 -2px 6px #f80, 0 -4px 10px #f00; }
+}
+.fire-text { animation: fire 0.5s ease-in-out infinite alternate; }
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-3px) rotate(2deg); }
+  75% { transform: translateY(3px) rotate(-2deg); }
+}
+
+.new-badge {
+  display: inline-block;
+  background: #FF0000;
+  color: #FFFF00;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 1px 4px;
+  animation: blink 0.8s step-end infinite;
+  font-family: Arial, sans-serif;
+  vertical-align: super;
+}
+
+.under-construction {
+  font-size: 24px;
+  animation: bounce 1s ease-in-out infinite;
+  display: inline-block;
+}
+
+.counter-digit {
+  display: inline-block;
+  background: #000;
+  color: #0F0;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  padding: 2px 4px;
+  border: 1px inset #444;
+  min-width: 12px;
+  text-align: center;
+}
+
+hr.fancy {
+  height: 6px;
+  background: linear-gradient(90deg, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+  border: none;
+  margin: 10px 0;
+}
+
+hr.fire {
+  height: 4px;
+  background: linear-gradient(90deg, #600, #f00, #f80, #ff0, #f80, #f00, #600);
+  border: none;
+  margin: 10px 0;
+  animation: fire 1s ease-in-out infinite alternate;
+}
+
+.beveled {
+  border: 3px outset #888;
+  padding: 8px;
+}
+
+.inset {
+  border: 3px inset #888;
+  padding: 8px;
+}
+
+.nav-button {
+  display: inline-block;
+  background: linear-gradient(180deg, #ddd, #999);
+  color: #000033;
+  font-weight: bold;
+  padding: 4px 12px;
+  border: 2px outset #ccc;
+  text-decoration: none;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 2px;
+}
+.nav-button:hover {
+  border-style: inset;
+  background: linear-gradient(180deg, #bbb, #777);
+  color: #000033;
+}
+
+.theme-select {
+  background: #000;
+  color: #0f0;
+  border: 2px inset #444;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.guestbook-entry {
+  background: #FFFFCC;
+  color: #000;
+  border: 2px inset #888;
+  padding: 8px;
+  margin: 6px 0;
+  font-size: 13px;
+}
+.guestbook-entry .gb-name {
+  font-weight: bold;
+  color: #000080;
+}
+.guestbook-entry .gb-date {
+  color: #666;
+  font-size: 11px;
+}
+
+.service-card {
+  border: 3px ridge #8888CC;
+  padding: 0;
+  margin: 8px 0;
+}
+.service-card td { padding: 10px; }
+.service-header {
+  background: linear-gradient(180deg, #000066, #000099);
+  color: #FFFF00;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 6px 10px !important;
+  text-align: center;
+}
+
+.sidebar-box {
+  border: 2px ridge #8888AA;
+  background: #000055;
+  padding: 8px;
+  margin: 8px 0;
+}
+.sidebar-title {
+  background: #330066;
+  color: #FF88FF;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px 8px;
+  margin: -8px -8px 8px -8px;
+  text-align: center;
+  border-bottom: 2px ridge #8888AA;
+}
+
+textarea, input[type="text"], input[type="email"] {
+  background: #FFFFEE;
+  color: #000;
+  border: 2px inset #888;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+  font-size: 13px;
+  padding: 4px;
+}
+input[type="submit"] {
+  background: linear-gradient(180deg, #ddd, #999);
+  border: 2px outset #ccc;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+  font-weight: bold;
+  padding: 4px 16px;
+  cursor: pointer;
+}
+input[type="submit"]:hover { border-style: inset; }
+
+.theme-badge {
+  display: none;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  font-family: Arial, sans-serif;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+body.theme-ai .theme-badge.ai-badge { display: inline; background: #1a1a2e; color: #00d4ff; border: 1px solid #00d4ff; }
+body.theme-green .theme-badge.green-badge { display: inline; background: #1a2e1a; color: #44ff44; border: 1px solid #44ff44; }
+
+.theme-inject { display: none; }
+body.theme-ai .theme-inject.ai { display: inline; }
+body.theme-green .theme-inject.green { display: inline; }
+
+body.theme-ai .service-header { background: linear-gradient(180deg, #0a0a2e, #1a1a4e); }
+body.theme-green .service-header { background: linear-gradient(180deg, #0a2e0a, #1a4e1a); }
+
+.webring {
+  border: 2px ridge #8888AA;
+  background: #000044;
+  padding: 8px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.midi-player {
+  background: #222;
+  border: 2px inset #555;
+  padding: 4px 8px;
+  display: inline-block;
+  font-size: 11px;
+  font-family: 'Courier New', monospace;
+  color: #0f0;
+}
+.midi-btn {
+  background: #444;
+  color: #0f0;
+  border: 1px outset #666;
+  font-family: 'Courier New', monospace;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 1px 6px;
+}
+.midi-btn:hover { border-style: inset; }
+
+@media (max-width: 780px) {
+  .main-layout td { display: block; width: 100% !important; }
+  .main-layout .sidebar-cell { border-left: none !important; border-top: 2px ridge #8888CC; }
+}
+</style>
+</head>
+
+<body bgcolor="#000033" text="#FFFFFF" link="#00FFFF" vlink="#FF69B4" alink="#FFFF00">
+
+<!-- ====== TOP BANNER AREA ====== -->
+<center>
+<br>
+
+<table width="750" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="right" style="padding: 2px 4px;">
+  <span style="font-size: 11px; font-family: 'Courier New', monospace; color: #888;">
+    optimize your experience:
+    <select class="theme-select" id="themeSelect" onchange="switchTheme(this.value)">
+      <option value="default">&#9632; UNWASHED</option>
+      <option value="ai">&#9632; AI WASHED</option>
+      <option value="green">&#9632; GREEN WASHED</option>
+    </select>
+  </span>
+</td></tr>
+</table>
+
+<br>
+
+<!-- sparkle row -->
+<span class="sparkle" style="font-size:20px;">&#10022;</span>
+<span class="sparkle" style="font-size:16px; animation-delay: 0.3s;">&#10022;</span>
+<span class="sparkle" style="font-size:24px; animation-delay: 0.6s;">&#10022;</span>
+<span class="sparkle" style="font-size:16px; animation-delay: 0.9s;">&#10022;</span>
+<span class="sparkle" style="font-size:20px; animation-delay: 1.2s;">&#10022;</span>
+
+<br>
+
+<!-- MAIN TITLE -->
+<table width="750" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="center" bgcolor="#000055" style="border: 3px ridge #4444AA; padding: 16px;">
+  <font size="7"><b class="rainbow">&#9733; MANDATORY FUN &#9733;</b></font>
+  <span class="theme-inject ai" style="font-size: 10px; color: #00d4ff;"><br>powered by AI&#8482;</span>
+  <span class="theme-inject green" style="font-size: 10px; color: #44ff44;"><br>&#127807; carbon neutral since 2024</span>
+  <br>
+  <font size="3" color="#CCCCFF"><i>Professional Corporate Fun Consulting Services</i></font>
+  <br>
+  <font size="2" color="#888888">ABN 50 696 825 662 &bull; mandatoryfun.games</font>
+</td></tr>
+</table>
+
+<br>
+
+<!-- MARQUEE -->
+<table width="750" cellpadding="0" cellspacing="0" border="0">
+<tr><td bgcolor="#330033" style="border: 2px inset #666; overflow: hidden; padding: 4px;">
+  <marquee behavior="scroll" direction="left" scrollamount="3">
+    <font size="2" color="#FF88FF">
+      &#9733; NOW OFFERING: Zoom Saloon - drinks delivered to your WFH office! Camera ON is COMPULSORY! &#9733;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="theme-inject ai" style="color: #00d4ff;">&#129302; Ask about our AI-Powered Fun Optimization Engine! &nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span class="theme-inject green" style="color: #44ff44;">&#127793; All string in our Fun with String package is now 100% organic! &nbsp;&nbsp;&nbsp;&nbsp;</span>
+      &#9733; Coach the Agile Coach - we send a REAL CLOWN to your office! &#9733;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &#9733; No refunds for clown rejections. No clown rejections tolerated. &#9733;
+    </font>
+  </marquee>
+</td></tr>
+</table>
+
+<br>
+
+<!-- HIT COUNTER AND DATE -->
+<font size="2" color="#888888">You are visitor number </font>
+<span id="visitorCounter"></span>
+<font size="2" color="#888888"> since April 2025</font>
+<br>
+<font size="1" color="#666666">Last updated: <span class="blink">April 2026</span> &bull; Best viewed in Netscape Navigator 4.0 at 800x600</font>
+
+<br><br>
+
+<!-- NAV BAR -->
+<table width="750" cellpadding="4" cellspacing="0" bgcolor="#000055" style="border: 2px outset #8888CC;">
+<tr>
+<td align="center">
+  <a href="#services" class="nav-button">&#128188; SERVICES</a>
+  <a href="#about" class="nav-button">&#128101; ABOUT US</a>
+  <a href="#testimonials" class="nav-button">&#11088; TESTIMONIALS</a>
+  <a href="#guestbook" class="nav-button">&#128221; GUESTBOOK</a>
+  <a href="mailto:hello@mandatoryfun.games" class="nav-button"><span class="spin">&#9993;</span> EMAIL</a>
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ====== MAIN CONTENT TABLE ====== -->
+<table class="main-layout" width="750" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<!-- LEFT COLUMN: MAIN CONTENT -->
+<td valign="top" width="530" bgcolor="#000044" style="border: 2px ridge #8888CC; padding: 12px;">
+
+<!-- WELCOME SECTION -->
+<a name="about"></a>
+<table width="100%" cellpadding="8" cellspacing="0" style="border: 2px ridge #6666AA;">
+<tr><td bgcolor="#110044" align="center">
+  <font size="4" color="#FFCC00"><b>&#127881; Welcome to Mandatory Fun! &#127881;</b></font>
+  <span class="theme-badge ai-badge">AI ENHANCED</span>
+  <span class="theme-badge green-badge">ECO FRIENDLY</span>
+  <hr class="fancy">
+  <font size="2" color="#DDDDFF">
+  <p>Is your workplace suffering from <b>dangerously high morale</b>? Are your employees <b>too comfortable</b>? Do they feel <b>respected as adults</b>?</p>
+  <p><font color="#FF8888"><b>We can fix that.</b></font></p>
+  <p>Mandatory Fun is a <span class="theme-inject ai">AI-first </span><span class="theme-inject green">sustainably operated </span>full-service corporate fun consultancy dedicated to ensuring every employee experiences the exact amount of fun deemed appropriate by management.</p>
+  </font>
+
+  <!-- THE POEM -->
+  <table cellpadding="10" cellspacing="0" style="border: 1px dashed #8888AA; margin: 10px auto;">
+  <tr><td bgcolor="#0a0033" align="center">
+    <font color="#FF88FF" size="2"><i>
+    We will<br>
+    Turn your frown<br>
+    Upside down<br>
+    We help<br>
+    Your guard down<br>
+    Become a clown<br>
+    </i></font>
+    <br>
+    <font color="#666" size="1">- Chief Fun Officer, Mandatory Fun</font>
+  </td></tr>
+  </table>
+
+</td></tr>
+</table>
+
+<br>
+<hr class="fire">
+
+<!-- ====== SERVICES SECTION ====== -->
+<a name="services"></a>
+<center>
+<font size="5" color="#FF4444"><b>&#128296; OUR SERVICES &#128296;</b></font>
+<span class="new-badge">NEW!</span>
+<span class="theme-inject ai"><br><font size="1" color="#00d4ff">all services now feature machine learning optimization</font></span>
+<span class="theme-inject green"><br><font size="1" color="#44ff44">all services are carbon offset certified</font></span>
+</center>
+<br>
+
+<!-- SERVICE 1: Pizza Party -->
+<table class="service-card" width="100%" cellpadding="0" cellspacing="0">
+<tr><td class="service-header">&#127829; Pizza Party Services <span class="theme-inject ai">+ AI</span><span class="theme-inject green">+ Organic</span></td></tr>
+<tr><td bgcolor="#000033" style="padding: 10px;">
+  <font size="2" color="#DDDDDD">
+  We order pizzas to your office and charge a consulting fee. Our proprietary <b>Pizza Optimization Framework (POF)</b> ensures maximum pizza-to-employee ratio through advanced logistics planning<span class="theme-inject ai"> powered by neural networks</span>.
+  <br><br>
+  <table cellpadding="2" cellspacing="0">
+  <tr><td><font color="#FFFF00" size="2"><b>PRICING:</b></font></td>
+  <td><font color="#FF8888" size="2">Starting from <b>$5,000</b>/consultation</font></td></tr>
+  <tr><td></td><td><font color="#888888" size="1">Pizza not included. Delivery fees additional. Consulting fee is non-refundable.</font></td></tr>
+  </table>
+  </font>
+  <span class="theme-inject green"><br><font size="1" color="#44ff44">&#127807; Pizza boxes are composted after each event</font></span>
+</td></tr>
+</table>
+
+<!-- SERVICE 2: Infantilisation Packages -->
+<table class="service-card" width="100%" cellpadding="0" cellspacing="0">
+<tr><td class="service-header">&#127880; Infantilisation Packages</td></tr>
+<tr><td bgcolor="#000033" style="padding: 10px;">
+  <font size="2" color="#DDDDDD">
+  Why treat your adult employees like adults when you could treat them like kindergarteners?
+  <br><br>
+  <b>Package includes:</b>
+  <ul>
+    <li>Colouring books (corporate-themed)</li>
+    <li>Gold star stickers for <i>really</i> good Jira tickets</li>
+    <li>Mandatory enthusiasm training</li>
+    <li>A participation trophy for everyone who showed up</li>
+    <li><span class="theme-inject ai">&#129302; An AI chatbot that tells you you're doing great </span></li>
+    <li><span class="theme-inject green">&#127807; Crayons made from recycled materials </span></li>
+  </ul>
+  <font color="#FFCC00"><b>MULTI-SERVICE DISCOUNT:</b></font> Bundle 3+ packages and save 1%!
+  </font>
+</td></tr>
+</table>
+
+<!-- SERVICE 3: Coach the Agile Coach -->
+<table class="service-card" width="100%" cellpadding="0" cellspacing="0">
+<tr><td class="service-header">&#129313; Coach the Agile Coach <span class="new-badge">HOT!</span></td></tr>
+<tr><td bgcolor="#000033" style="padding: 10px;">
+  <font size="2" color="#DDDDDD">
+  We send a <b><font color="#FF4444" size="3">REAL CLOWN</font></b> directly to your office to coach your Agile coach. Finally, someone who understands the true spirit of your daily standup.
+  <br><br>
+  Our certified Clown Consultants&trade; are trained in:
+  <ul>
+    <li>Balloon-based sprint planning</li>
+    <li>Pie-in-face retrospectives</li>
+    <li>Seltzer water conflict resolution</li>
+    <li>Tiny car carpooling solutions</li>
+  </ul>
+  <table bgcolor="#330000" cellpadding="6" width="100%" style="border: 2px solid #FF0000;">
+  <tr><td>
+    <font color="#FF4444" size="2"><b>&#9888; IMPORTANT POLICY NOTICE:</b></font><br>
+    <font color="#FF8888" size="2">
+    &bull; No refunds for clown rejections.<br>
+    &bull; No clown rejections tolerated.<br>
+    &bull; The clown stays until the clown decides to leave.
+    </font>
+  </td></tr>
+  </table>
+  </font>
+</td></tr>
+</table>
+
+<!-- SERVICE 4: Fun with String -->
+<table class="service-card" width="100%" cellpadding="0" cellspacing="0">
+<tr><td class="service-header">&#129526; Fun with String</td></tr>
+<tr><td bgcolor="#000033" style="padding: 10px;">
+  <font size="2" color="#DDDDDD">
+  We deliver a package of different coloured and types of string to your office.
+  <br><br>
+  What you do with it is between you and your manager.
+  <br><br>
+  <font size="1" color="#888888">
+  Package may contain: red string, blue string, green string, brown string, twine (bonus), yarn,
+    sailing rope, fishing line.
+    Colours may vary, or be all the same colour.
+    String not guaranteed to be fun. Fun with string not guaranteed.
+  </font>
+  <span class="theme-inject ai"><br><br><font size="1" color="#00d4ff">&#129302; Our AI analyses your team's string preferences to optimise future string deliveries</font></span>
+  <span class="theme-inject green"><br><br><font size="1" color="#44ff44">&#127807; All string is sourced from sustainable, free-range string farms</font></span>
+  </font>
+</td></tr>
+</table>
+
+
+<!-- SERVICE 6: Zoom Saloon -->
+<table class="service-card" width="100%" cellpadding="0" cellspacing="0">
+<tr><td class="service-header">&#127866; Zoom Saloon <span class="new-badge">NEW!</span></td></tr>
+<tr><td bgcolor="#000033" style="padding: 10px;">
+  <font size="2" color="#DDDDDD">
+  We order drinks to everyone's WFH office. <font color="#FF4444"><b>CAMERA ON IS COMPULSORY.</b></font>
+  <br><br>
+  Watch your colleagues drink in real-time. Team building has never been this intimate.
+  <br><br>
+  <table cellpadding="4" cellspacing="0" bgcolor="#001133" style="border: 1px solid #444; width: 100%;">
+  <tr><td><font color="#FFCC00" size="2"><b>Zoom Saloon Rules:</b></font></td></tr>
+  <tr><td><font color="#DDDDDD" size="2">
+  1. Camera ON at all times<br>
+  2. You must hold your drink visibly<br>
+  3. Bathroom breaks require team vote<br>
+  4. "I have a hard stop" is not recognised here<br>
+  5. The Saloon closes when the last person cries
+  </font></td></tr>
+  </table>
+  </font>
+</td></tr>
+</table>
+
+<br>
+<hr class="fire">
+
+<!-- ====== TESTIMONIALS ====== -->
+<a name="testimonials"></a>
+<center>
+<font size="5" color="#FFCC00"><b>&#11088; CLIENT TESTIMONIALS &#11088;</b></font>
+</center>
+<br>
+
+<table width="100%" cellpadding="8" cellspacing="4">
+<tr><td bgcolor="#FFFFCC" style="border: 2px inset #888; color: #000;">
+  <font face="Times New Roman, serif" size="2">
+  <i>"The pizza party really boosted our team's morale by 0.3%. Worth every cent of the $5,000 consulting fee."</i>
+  <br><b>- Jennifer, HR Manager, MegaCorp</b>
+  <br><font size="1" color="#666">&#11088;&#11088;&#11088;&#11088;&#11088; 5/5 stars</font>
+  </font>
+</td></tr>
+<tr><td bgcolor="#CCFFCC" style="border: 2px inset #888; color: #000;">
+  <font face="Times New Roman, serif" size="2">
+  <i>"The clown consulting changed our standup forever. We no longer have standups."</i>
+  <br><b>- Dave, Former Scrum Master</b>
+  <br><font size="1" color="#666">&#11088;&#11088;&#11088;&#11088;&#11088; 5/5 stars</font>
+  </font>
+</td></tr>
+<tr><td bgcolor="#CCCCFF" style="border: 2px inset #888; color: #000;">
+  <font face="Times New Roman, serif" size="2">
+  <i>"We ordered Fun with String for our team building day. Nobody spoke for 3 hours. Best day we've ever had."</i>
+  <br><b>- Anonymous, A Real Company</b>
+  <br><font size="1" color="#666">&#11088;&#11088;&#11088;&#11088;&#11088; 5/5 stars</font>
+  </font>
+</td></tr>
+</table>
+
+<br>
+<hr class="fire">
+
+<!-- ====== GUESTBOOK ====== -->
+<a name="guestbook"></a>
+<center>
+<font size="5" color="#88FF88"><b>&#128221; SIGN MY GUESTBOOK! &#128221;</b></font>
+<br>
+<font size="2" color="#AAAAAA"><i>Please sign our guestbook! We definitely read every entry!</i></font>
+</center>
+<br>
+
+<div id="guestbookEntries"></div>
+
+<br>
+<table width="100%" cellpadding="8" cellspacing="0" bgcolor="#000055" style="border: 2px ridge #8888AA;">
+<tr><td>
+<center><font size="3" color="#FFCC00"><b>&#9998; Add Your Entry &#9998;</b></font></center>
+<br>
+<form id="guestbookForm" onsubmit="return addGuestbookEntry(event)">
+<table cellpadding="4" cellspacing="0">
+<tr>
+  <td><font size="2" color="#CCCCFF"><b>Name:</b></font></td>
+  <td><input type="text" name="gbName" id="gbName" size="30" required></td>
+</tr>
+<tr>
+  <td><font size="2" color="#CCCCFF"><b>Email:</b></font></td>
+  <td><input type="email" name="gbEmail" id="gbEmail" size="30"></td>
+</tr>
+<tr>
+  <td><font size="2" color="#CCCCFF"><b>Company:</b></font></td>
+  <td><input type="text" name="gbCompany" id="gbCompany" size="30"></td>
+</tr>
+<tr>
+  <td valign="top"><font size="2" color="#CCCCFF"><b>Message:</b></font></td>
+  <td><textarea name="gbMessage" id="gbMessage" cols="40" rows="4" required></textarea></td>
+</tr>
+<tr>
+  <td></td>
+  <td><input type="submit" value="&#128172; Sign Guestbook!"></td>
+</tr>
+</table>
+</form>
+</td></tr>
+</table>
+
+</td>
+
+<!-- RIGHT COLUMN: SIDEBAR -->
+<td valign="top" width="200" bgcolor="#000044" class="sidebar-cell" style="border: 2px ridge #8888CC; border-left: none; padding: 8px;">
+
+<!-- Under Construction -->
+<div class="sidebar-box" style="text-align: center;">
+  <span class="under-construction">&#128679;</span>
+  <br>
+  <font size="2" color="#FFFF00"><b>UNDER<br>CONSTRUCTION</b></font>
+  <br>
+  <span class="under-construction" style="animation-delay: 0.5s;">&#128679;</span>
+  <br>
+  <font size="1" color="#888">Pardon our dust! We're always improving!</font>
+</div>
+
+<!-- MIDI Player -->
+<div class="sidebar-box" style="text-align: center;">
+  <div class="sidebar-title">&#127925; NOW PLAYING</div>
+  <div class="midi-player">
+    <span id="midiStatus">&#9654; corpo_vibes.mid</span>
+    <br>
+    <button class="midi-btn" onclick="toggleMidi()">&#9654;/&#9724;</button>
+    <button class="midi-btn" onclick="toggleMidi()">&#9198;</button>
+  </div>
+  <br>
+  <font size="1" color="#666"><i>requires Sound Blaster 16</i></font>
+</div>
+
+<!-- About the Webmaster -->
+<div class="sidebar-box">
+  <div class="sidebar-title">&#128100; WEBMASTER</div>
+  <font size="2" color="#CCCCFF">
+  <center>
+  <br>
+  <font size="3">&#128104;&#8205;&#128187;</font>
+  <br><br>
+  <b>Chief Fun Officer</b>
+  <br>
+  Mandatory Fun&trade;<br>
+  <br><br>
+  <font size="1" color="#888">
+  "Making fun mandatory<br>since 2026"
+  </font>
+  <br><br>
+  <a href="mailto:hello@mandatoryfun.games"><span class="spin">&#9993;</span> email me!</a>
+  </center>
+  </font>
+</div>
+
+<!-- Cool Links -->
+<div class="sidebar-box">
+  <div class="sidebar-title">&#127279; COOL LINKS</div>
+  <font size="2">
+  <a href="https://mandatoryfun.games">&#127922; Our Domain</a><br>
+  <a href="#services">&#128188; Services</a><br>
+  <a href="#guestbook">&#128221; Guestbook</a><br>
+  <br>
+  <font size="1" color="#888"><i>Want a link here?<br>Email the webmaster!</i></font>
+  </font>
+</div>
+
+<!-- Awards -->
+<div class="sidebar-box" style="text-align: center;">
+  <div class="sidebar-title">&#127942; AWARDS</div>
+  <table cellpadding="4" cellspacing="2" width="100%">
+  <tr><td align="center" bgcolor="#000033" style="border: 2px outset #888;">
+    <font size="1" color="#FFCC00">&#127942;<br><b>BEST<br>CORPORATE<br>FUN SITE<br>2025</b></font>
+  </td></tr>
+  <tr><td align="center" bgcolor="#000033" style="border: 2px outset #888;">
+    <font size="1" color="#88FF88">&#127775;<br><b>TOP 10<br>GEOCITIES<br>BUSINESS<br>SITES</b></font>
+  </td></tr>
+  <tr><td align="center" bgcolor="#000033" style="border: 2px outset #888;">
+    <font size="1" color="#FF88FF">&#128150;<br><b>MADE WITH<br>NOTEPAD</b></font>
+  </td></tr>
+  </table>
+</div>
+
+
+<!-- Stock Image Placeholder -->
+<div class="sidebar-box" style="text-align: center;">
+  <div class="sidebar-title">&#128247; OUR TEAM</div>
+  <div style="background: #333; border: 2px inset #666; padding: 20px 10px; margin: 4px;">
+    <img src="fun.png" alt="fun!" width="100%" height="100%" />
+  </div>
+  <font size="1" color="#666"><i>not actual employees</i></font>
+</div>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- WEBRING -->
+<table width="750" cellpadding="0" cellspacing="0">
+<tr><td>
+<div class="webring">
+  <font size="2" color="#CCCCFF">
+  &#127760; This site is part of the <b>Corporate Fun WebRing</b> &#127760;
+  <br>
+  <a href="#">&laquo; Previous</a> |
+  <a href="#">Random</a> |
+  <a href="#">Next &raquo;</a>
+  <br>
+  <font size="1" color="#888">Connecting the world's finest mandatory fun providers since 1997</font>
+  </font>
+</div>
+</td></tr>
+</table>
+
+<br>
+
+<!-- FOOTER -->
+<table width="750" cellpadding="8" cellspacing="0">
+<tr><td align="center" bgcolor="#000022" style="border: 2px ridge #4444AA;">
+
+<hr class="fancy">
+
+<font size="1" color="#888888">
+<p>
+&#127760; Best viewed in <b>Netscape Navigator 4.0</b> at <b>800x600</b> resolution with <b>16-bit colour</b> &#127760;
+</p>
+<p>
+<span class="theme-inject ai">&#129302; This website is monitored by AI for quality assurance purposes. &nbsp;</span>
+<span class="theme-inject green">&#127807; This website runs on 100% renewable electrons. &nbsp;</span>
+</p>
+<p>
+&copy; 2026 Mandatory Fun. All rights reserved.<br>
+<a href="legal.html#terms">Terms &amp; Conditions</a> &bull;
+<a href="legal.html#privacy">Privacy Policy</a> &bull;
+<a href="legal.html#refunds">Refund Policy</a>
+</p>
+<p>
+<a href="mailto:hello@mandatoryfun.games">&#9993; Email the Webmaster</a> &bull;
+<a href="#guestbook">&#128221; Sign the Guestbook</a>
+</p>
+<p>
+Made with &#128150; and <b>Notepad</b>
+<br>
+<font color="#444444">HTML</font>
+</p>
+</font>
+
+<hr class="fancy">
+
+</td></tr>
+</table>
+
+<br><br>
+
+</center>
+
+<script>
+// ============ THEME SWITCHER ============
+function switchTheme(theme) {
+  document.body.className = '';
+  if (theme === 'ai') document.body.classList.add('theme-ai');
+  else if (theme === 'green') document.body.classList.add('theme-green');
+  localStorage.setItem('mf-theme', theme);
+}
+
+(function() {
+  var saved = localStorage.getItem('mf-theme');
+  if (saved) {
+    document.getElementById('themeSelect').value = saved;
+    switchTheme(saved);
+  }
+})();
+
+// ============ VISITOR COUNTER ============
+(function() {
+  var count = parseInt(localStorage.getItem('mf-visitor-count') || '12847', 10);
+  count += 1;
+  localStorage.setItem('mf-visitor-count', count.toString());
+  var el = document.getElementById('visitorCounter');
+  var digits = count.toString().padStart(6, '0');
+  var html = '';
+  for (var i = 0; i < digits.length; i++) {
+    html += '<span class="counter-digit">' + digits[i] + '</span>';
+  }
+  el.innerHTML = html;
+})();
+
+// ============ MIDI PLAYER (fake) ============
+var midiPlaying = false;
+var midiCtx = null;
+function toggleMidi() {
+  var status = document.getElementById('midiStatus');
+  if (!midiPlaying) {
+    midiPlaying = true;
+    status.innerHTML = '&#9654; corpo_vibes.mid <span class="blink">&#9836;</span>';
+    try {
+      midiCtx = new (window.AudioContext || window.webkitAudioContext)();
+      playCorpoVibes();
+    } catch(e) {}
+  } else {
+    midiPlaying = false;
+    status.textContent = '■ corpo_vibes.mid';
+    if (midiCtx) { midiCtx.close(); midiCtx = null; }
+  }
+}
+
+function playCorpoVibes() {
+  if (!midiPlaying || !midiCtx) return;
+  var notes = [261.63, 293.66, 329.63, 349.23, 392.00, 349.23, 329.63, 293.66];
+  var time = midiCtx.currentTime;
+  for (var i = 0; i < notes.length; i++) {
+    var osc = midiCtx.createOscillator();
+    var gain = midiCtx.createGain();
+    osc.type = 'square';
+    osc.frequency.value = notes[i];
+    gain.gain.value = 0.06;
+    gain.gain.exponentialRampToValueAtTime(0.001, time + (i + 1) * 0.4);
+    osc.connect(gain);
+    gain.connect(midiCtx.destination);
+    osc.start(time + i * 0.4);
+    osc.stop(time + (i + 1) * 0.4);
+  }
+  setTimeout(function() { playCorpoVibes(); }, notes.length * 400 + 800);
+}
+
+// ============ GUESTBOOK ============
+var defaultEntries = [
+  {
+    name: "Jennifer from HR",
+    company: "MegaCorp Industries",
+    date: "2025-11-14",
+    message: "Great site! Love the under construction signs. Really captures our company's project management approach. The pizza party was a hit - employee satisfaction went from 12% to 12.3%!"
+  },
+  {
+    name: "xXx_420DarkCoder_xXx",
+    company: "Stealth Startup (can't say which)",
+    date: "2025-09-22",
+    message: "cool site dude. the clown you sent was better at running our retro than our actual scrum master. 10/10 would reject clown again (but i know i cant)"
+  },
+  {
+    name: "Brenda",
+    company: "Synergy Solutions LLC",
+    date: "2025-07-03",
+    message: "We ordered the Infantilisation Package for our Q3 team building event. My 47-year-old colleague with a PhD in astrophysics seemed to really enjoy the gold star stickers. He's been putting them on his monitor."
+  },
+  {
+    name: "DEFINITELY A REAL PERSON",
+    company: "Not A Fake Company",
+    date: "2025-05-18",
+    message: "THIS IS THE BEST WEBSITE I HAVE EVER SEEN."
+  },
+  {
+    name: "Steve from Accounting",
+    company: "Numbers & Co",
+    date: "2026-01-29",
+    message: "The Fun with String delivery arrived. Nobody opened Slack for two hours. True disruption."
+  },
+  {
+    name: "Anonymous Scrum Master",
+    company: "[REDACTED]",
+    date: "2026-03-11",
+    message: "The clown is still here. It's been 3 weeks. He runs the standups now."
+  }
+];
+
+function getGuestbookEntries() {
+  var stored = localStorage.getItem('mf-guestbook');
+  if (stored) {
+    try { return JSON.parse(stored); } catch(e) {}
+  }
+  localStorage.setItem('mf-guestbook', JSON.stringify(defaultEntries));
+  return defaultEntries;
+}
+
+function renderGuestbook() {
+  var entries = getGuestbookEntries();
+  var container = document.getElementById('guestbookEntries');
+  var html = '';
+  for (var i = entries.length - 1; i >= 0; i--) {
+    var e = entries[i];
+    var escapedMsg = e.message.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    var escapedName = e.name.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    var escapedCompany = e.company ? e.company.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : '';
+    html += '<div class="guestbook-entry">';
+    html += '<span class="gb-name">' + escapedName + '</span>';
+    if (escapedCompany) html += ' <font size="1" color="#666">(' + escapedCompany + ')</font>';
+    html += ' <span class="gb-date">' + e.date + '</span>';
+    html += '<br>' + escapedMsg;
+    html += '</div>';
+  }
+  container.innerHTML = html;
+}
+
+function addGuestbookEntry(event) {
+  event.preventDefault();
+  var name = document.getElementById('gbName').value.trim();
+  var email = document.getElementById('gbEmail').value.trim();
+  var company = document.getElementById('gbCompany').value.trim();
+  var message = document.getElementById('gbMessage').value.trim();
+  if (!name || !message) return false;
+  var entries = getGuestbookEntries();
+  var today = new Date();
+  var dateStr = today.getFullYear() + '-' +
+    String(today.getMonth()+1).padStart(2,'0') + '-' +
+    String(today.getDate()).padStart(2,'0');
+  entries.push({
+    name: name,
+    company: company || '',
+    date: dateStr,
+    message: message
+  });
+  localStorage.setItem('mf-guestbook', JSON.stringify(entries));
+  renderGuestbook();
+  document.getElementById('guestbookForm').reset();
+  alert('Thanks for signing the guestbook! \n\nYour entry has been saved.\n(To your browser. We have no backend.)');
+  return false;
+}
+
+renderGuestbook();
+</script>
+
+</body>
+</html>
